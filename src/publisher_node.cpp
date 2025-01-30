@@ -12,9 +12,9 @@ class PublisherNode : public rclcpp::Node
 {
 public:
     PublisherNode() : Node("publisher_node"),
-                      mqtt_client_("tcp://192.168.2.100:1883", "ros2_publisher"), // ✅ Correct order
-                      is_connected_(false),
-                      altitude_(generate_random_altitude()) // ✅ Now matches private section order
+                      mqtt_client_("tcp://192.168.2.100:1883", "ros2_publisher"), // Must match the
+                      is_connected_(false),                                      // the order in
+                      altitude_(generate_random_altitude())                     // private section
     {
         // ROS2 Publishers
         publisher_ = this->create_publisher<std_msgs::msg::String>("ros2/mqtt/topic", 10);
