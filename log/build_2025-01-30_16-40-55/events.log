@@ -1,0 +1,148 @@
+[0.000000] (-) TimerEvent: {}
+[0.000470] (rovc_comm_mqtt) JobQueued: {'identifier': 'rovc_comm_mqtt', 'dependencies': OrderedDict()}
+[0.000527] (rovc_comm_mqtt) JobStarted: {'identifier': 'rovc_comm_mqtt'}
+[0.006342] (rovc_comm_mqtt) JobProgress: {'identifier': 'rovc_comm_mqtt', 'progress': 'cmake'}
+[0.006718] (rovc_comm_mqtt) Command: {'cmd': ['/usr/bin/cmake', '/home/luka/ros2_diplpro/src/rovc_comm_mqtt', '-DCMAKE_INSTALL_PREFIX=/home/luka/ros2_diplpro/src/rovc_comm_mqtt/install/rovc_comm_mqtt'], 'cwd': '/home/luka/ros2_diplpro/src/rovc_comm_mqtt/build/rovc_comm_mqtt', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'luka'), ('LC_TIME', 'hr_HR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/luka'), ('OLDPWD', '/home/luka/ros2_diplpro/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hr_HR.UTF-8'), ('SYSTEMD_EXEC_PID', '2343'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/luka/ros2_diplpro/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'luka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/luka-pc:@/tmp/.ICE-unix/1298,unix/luka-pc:/tmp/.ICE-unix/1298'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hr_HR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/39a9ca26_038d_460b_8258_743c79a44162'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hr_HR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/luka/ros2_diplpro/install/rovc_comm_mqtt:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hr_HR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hr_HR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'hr_HR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luka/ros2_diplpro/src/rovc_comm_mqtt/build/rovc_comm_mqtt'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'hr_HR.UTF-8'), ('LC_PAPER', 'hr_HR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/luka/ros2_diplpro/install/rovc_comm_mqtt:/opt/ros/humble')]), 'shell': False}
+[0.054528] (rovc_comm_mqtt) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099640] (-) TimerEvent: {}
+[0.103409] (rovc_comm_mqtt) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.109689] (rovc_comm_mqtt) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.168293] (rovc_comm_mqtt) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.174968] (rovc_comm_mqtt) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.175186] (rovc_comm_mqtt) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.175546] (rovc_comm_mqtt) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.178089] (rovc_comm_mqtt) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199757] (-) TimerEvent: {}
+[0.246195] (rovc_comm_mqtt) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.253089] (rovc_comm_mqtt) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.253382] (rovc_comm_mqtt) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.253764] (rovc_comm_mqtt) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.267120] (rovc_comm_mqtt) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299885] (-) TimerEvent: {}
+[0.400180] (-) TimerEvent: {}
+[0.453589] (rovc_comm_mqtt) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500250] (-) TimerEvent: {}
+[0.545812] (rovc_comm_mqtt) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.595634] (rovc_comm_mqtt) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.600314] (-) TimerEvent: {}
+[0.607471] (rovc_comm_mqtt) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.614286] (rovc_comm_mqtt) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.624838] (rovc_comm_mqtt) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.638852] (rovc_comm_mqtt) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.676826] (rovc_comm_mqtt) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.678865] (rovc_comm_mqtt) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700413] (-) TimerEvent: {}
+[0.748376] (rovc_comm_mqtt) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.769856] (rovc_comm_mqtt) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.800532] (-) TimerEvent: {}
+[0.802455] (rovc_comm_mqtt) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.808990] (rovc_comm_mqtt) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.871637] (rovc_comm_mqtt) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.872084] (rovc_comm_mqtt) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.900652] (-) TimerEvent: {}
+[0.942543] (rovc_comm_mqtt) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.943676] (rovc_comm_mqtt) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.995543] (rovc_comm_mqtt) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.000749] (-) TimerEvent: {}
+[1.069734] (rovc_comm_mqtt) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.069956] (rovc_comm_mqtt) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.070046] (rovc_comm_mqtt) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.073701] (rovc_comm_mqtt) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.084425] (rovc_comm_mqtt) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.084511] (rovc_comm_mqtt) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.086004] (rovc_comm_mqtt) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.087069] (rovc_comm_mqtt) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.097137] (rovc_comm_mqtt) StdoutLine: {'line': b'-- Generating done\n'}
+[1.100846] (-) TimerEvent: {}
+[1.101276] (rovc_comm_mqtt) StdoutLine: {'line': b'-- Build files have been written to: /home/luka/ros2_diplpro/src/rovc_comm_mqtt/build/rovc_comm_mqtt\n'}
+[1.108105] (rovc_comm_mqtt) CommandEnded: {'returncode': 0}
+[1.108643] (rovc_comm_mqtt) JobProgress: {'identifier': 'rovc_comm_mqtt', 'progress': 'build'}
+[1.109800] (rovc_comm_mqtt) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/luka/ros2_diplpro/src/rovc_comm_mqtt/build/rovc_comm_mqtt', '--', '-j6', '-l6'], 'cwd': '/home/luka/ros2_diplpro/src/rovc_comm_mqtt/build/rovc_comm_mqtt', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'luka'), ('LC_TIME', 'hr_HR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/luka'), ('OLDPWD', '/home/luka/ros2_diplpro/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hr_HR.UTF-8'), ('SYSTEMD_EXEC_PID', '2343'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/luka/ros2_diplpro/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'luka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'luka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/luka-pc:@/tmp/.ICE-unix/1298,unix/luka-pc:/tmp/.ICE-unix/1298'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hr_HR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/39a9ca26_038d_460b_8258_743c79a44162'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hr_HR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/luka/ros2_diplpro/install/rovc_comm_mqtt:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hr_HR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hr_HR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'hr_HR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/luka/ros2_diplpro/src/rovc_comm_mqtt/build/rovc_comm_mqtt'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'hr_HR.UTF-8'), ('LC_PAPER', 'hr_HR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/luka/ros2_diplpro/install/rovc_comm_mqtt:/opt/ros/humble')]), 'shell': False}
+[1.152029] (rovc_comm_mqtt) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_node.dir/src/subscriber_node.cpp.o\x1b[0m\n'}
+[1.152187] (rovc_comm_mqtt) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o\x1b[0m\n'}
+[1.200973] (-) TimerEvent: {}
+[1.301233] (-) TimerEvent: {}
+[1.401485] (-) TimerEvent: {}
+[1.501734] (-) TimerEvent: {}
+[1.601982] (-) TimerEvent: {}
+[1.702212] (-) TimerEvent: {}
+[1.802468] (-) TimerEvent: {}
+[1.902720] (-) TimerEvent: {}
+[2.002968] (-) TimerEvent: {}
+[2.103194] (-) TimerEvent: {}
+[2.203441] (-) TimerEvent: {}
+[2.303690] (-) TimerEvent: {}
+[2.403942] (-) TimerEvent: {}
+[2.504186] (-) TimerEvent: {}
+[2.604444] (-) TimerEvent: {}
+[2.704705] (-) TimerEvent: {}
+[2.804967] (-) TimerEvent: {}
+[2.905247] (-) TimerEvent: {}
+[3.005513] (-) TimerEvent: {}
+[3.105777] (-) TimerEvent: {}
+[3.206042] (-) TimerEvent: {}
+[3.306299] (-) TimerEvent: {}
+[3.406554] (-) TimerEvent: {}
+[3.506812] (-) TimerEvent: {}
+[3.607075] (-) TimerEvent: {}
+[3.707341] (-) TimerEvent: {}
+[3.807595] (-) TimerEvent: {}
+[3.907852] (-) TimerEvent: {}
+[4.008109] (-) TimerEvent: {}
+[4.108371] (-) TimerEvent: {}
+[4.208622] (-) TimerEvent: {}
+[4.253460] (rovc_comm_mqtt) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable publisher_node\x1b[0m\n'}
+[4.308744] (-) TimerEvent: {}
+[4.331584] (rovc_comm_mqtt) StderrLine: {'line': b"/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n"}
+[4.331730] (rovc_comm_mqtt) StderrLine: {'line': b"(.text+0x1b): undefined reference to `main'\n"}
+[4.336076] (rovc_comm_mqtt) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[4.337607] (rovc_comm_mqtt) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/publisher_node.dir/build.make:159: publisher_node] Error 1\n'}
+[4.337849] (rovc_comm_mqtt) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/publisher_node.dir/all] Error 2\n'}
+[4.337919] (rovc_comm_mqtt) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[4.408866] (-) TimerEvent: {}
+[4.509114] (-) TimerEvent: {}
+[4.609364] (-) TimerEvent: {}
+[4.709617] (-) TimerEvent: {}
+[4.809863] (-) TimerEvent: {}
+[4.910110] (-) TimerEvent: {}
+[5.010359] (-) TimerEvent: {}
+[5.110611] (-) TimerEvent: {}
+[5.210864] (-) TimerEvent: {}
+[5.311109] (-) TimerEvent: {}
+[5.411355] (-) TimerEvent: {}
+[5.511595] (-) TimerEvent: {}
+[5.611835] (-) TimerEvent: {}
+[5.712079] (-) TimerEvent: {}
+[5.812315] (-) TimerEvent: {}
+[5.912558] (-) TimerEvent: {}
+[6.012799] (-) TimerEvent: {}
+[6.113043] (-) TimerEvent: {}
+[6.213253] (-) TimerEvent: {}
+[6.313490] (-) TimerEvent: {}
+[6.413730] (-) TimerEvent: {}
+[6.513969] (-) TimerEvent: {}
+[6.614188] (-) TimerEvent: {}
+[6.714433] (-) TimerEvent: {}
+[6.814674] (-) TimerEvent: {}
+[6.914915] (-) TimerEvent: {}
+[7.015111] (-) TimerEvent: {}
+[7.115348] (-) TimerEvent: {}
+[7.215589] (-) TimerEvent: {}
+[7.315828] (-) TimerEvent: {}
+[7.416074] (-) TimerEvent: {}
+[7.516283] (-) TimerEvent: {}
+[7.616578] (-) TimerEvent: {}
+[7.716818] (-) TimerEvent: {}
+[7.817067] (-) TimerEvent: {}
+[7.917314] (-) TimerEvent: {}
+[8.017566] (-) TimerEvent: {}
+[8.117819] (-) TimerEvent: {}
+[8.129185] (rovc_comm_mqtt) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable subscriber_node\x1b[0m\n'}
+[8.217942] (-) TimerEvent: {}
+[8.318204] (-) TimerEvent: {}
+[8.418452] (-) TimerEvent: {}
+[8.429626] (rovc_comm_mqtt) StdoutLine: {'line': b'[100%] Built target subscriber_node\n'}
+[8.430646] (rovc_comm_mqtt) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.432525] (rovc_comm_mqtt) CommandEnded: {'returncode': 2}
+[8.439767] (rovc_comm_mqtt) JobEnded: {'identifier': 'rovc_comm_mqtt', 'rc': 2}
+[8.451215] (-) EventReactorShutdown: {}
