@@ -1,0 +1,9 @@
+C:\Users\Luka\source\repos\Mqtt_sub\Mqtt_sub\bin\Debug\Mqtt_sub.exe.config
+C:\Users\Luka\source\repos\Mqtt_sub\Mqtt_sub\bin\Debug\Mqtt_sub.exe
+C:\Users\Luka\source\repos\Mqtt_sub\Mqtt_sub\bin\Debug\Mqtt_sub.pdb
+C:\Users\Luka\source\repos\Mqtt_sub\Mqtt_sub\bin\Debug\MQTTnet.dll
+C:\Users\Luka\source\repos\Mqtt_sub\Mqtt_sub\obj\Debug\Mqtt_sub.csproj.AssemblyReference.cache
+C:\Users\Luka\source\repos\Mqtt_sub\Mqtt_sub\obj\Debug\Mqtt_sub.csproj.CoreCompileInputs.cache
+C:\Users\Luka\source\repos\Mqtt_sub\Mqtt_sub\obj\Debug\Mqtt_sub.csproj.Up2Date
+C:\Users\Luka\source\repos\Mqtt_sub\Mqtt_sub\obj\Debug\Mqtt_sub.exe
+C:\Users\Luka\source\repos\Mqtt_sub\Mqtt_sub\obj\Debug\Mqtt_sub.pdb
